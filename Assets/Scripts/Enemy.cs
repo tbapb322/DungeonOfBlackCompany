@@ -14,6 +14,9 @@ public class Enemy :MonoBehaviour
     public SpriteRenderer sprite;
     public Animator animator;
     public Slider healthBar;
+    public Vector3 healhBarOffset;
+    public float moveSpeed = 1;
+    public Vector2 attackRadius;
 
     public void GetStun()
     {
