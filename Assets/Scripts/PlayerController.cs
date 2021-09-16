@@ -7,7 +7,7 @@ public class PlayerController : MonoBehaviour
     private Rigidbody2D rb;
     private Vector2 direction;
     public float moveSpeed = 5f;
-    public Animator animator;
+    private Animator animator;
     // Start is called before the first frame update
     void Start()
     {
